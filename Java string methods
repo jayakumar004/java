@@ -1,0 +1,16 @@
+class Main {
+    public static void main(String[] args) {
+        String Name1 = "  Hello";
+        String Name2 ="  World";
+        String Name3 ="Hello";
+        System.out.println(Name1.toUpperCase());
+        System.out.println(Name2.toUpperCase());
+        System.out.println(Name1.indexOf("e"));
+        System.out.println(Name2.charAt(3));
+        System.out.println(Name1.equals(Name3));
+        System.out.println("before:["+Name1.trim()+"]");
+        System.out.println("after:["+Name2.trim()+"]");
+        System.out.println(Name1.concat(Name2).concat(Name3));
+        System.out.println(Name1+Name2);
+    }
+}
